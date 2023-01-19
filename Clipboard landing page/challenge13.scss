@@ -1,0 +1,150 @@
+@import 'button';
+@import 'config';
+ @import url(https://fonts.google.com/specimen/Bai+Jamjuree);
+
+ *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+ }
+ body{
+    font-family: 'Bai Jamjuree' , Arial, Helvetica, sans-serif;
+    background-image: url(images/bg-header-desktop.png) ;
+    .head{
+        background-image: url(images/bg-header-desktop.png) ;
+
+        #first{
+            width: 12%;
+            text-align: center;
+            justify-content: center; 
+            margin: 50px 0px 50px 45%;
+            align-items: center;
+        }
+        h1{
+            font-size: 36px;
+            font-family: 'Bai Jamjuree' , Arial, Helvetica, sans-serif;
+            color:  hsl(210, 10%, 33%);
+            text-align: center;
+            justify-content: center;
+            margin: 0px 0px 20px 80px;
+        }
+        p{
+            color: $paragraph-color ;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        h2{
+            color: hsl(210, 10%, 33%);
+            font-size: 24px;
+            text-align: center;
+            margin: 70px 0px 10px 0px;
+        }
+    }
+    #second{
+        width: 50%;
+        margin: 30px 0px 10px 20px ;
+    }
+    .sub{
+        position: absolute;
+        top: 134%;
+        left: 68%;
+        transform: translate(-50%, -50%);
+
+        h3{
+            color: hsl(210, 10%, 33%);
+            font-size: 20px;
+            margin-bottom: 12px;
+
+        }
+        p{
+            color: $paragraph-color;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+    }
+    .subb{
+        h2{
+            color:hsl(210, 10%, 33%) ;
+            font-size: 24px;
+            margin: 30px 0px 15px 20px;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            color: $paragraph-color;
+        }
+    }
+    #third{
+        width: 50%;
+        margin: 30px 0px 10px 500px ;
+    }
+    .subbb{
+        h4{
+            color:hsl(210, 10%, 33%);
+            text-align: center;
+            font-size: 20px;
+            margin: 20px 0px 20px 0px;
+        }
+        p{
+            color: $paragraph-color;
+            text-align: center;
+            margin: 5px 0px 20px 0px;
+        }
+    #subone{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin: 70px 0px 20px 0px ;
+        justify-content: space-evenly;
+
+        li{
+            list-style: none;
+        }
+    }    
+}
+#subtwo{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px 20px 0px;
+    justify-content: space-evenly;
+
+    li{
+        list-style: none;
+        
+    }
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+    color: hsl(210, 10%, 33%);
+}
+p{
+    text-align: center;
+    color: $paragraph-color;
+    margin: 10px 0px 20px 0px;
+}
+    .footer{
+
+
+        img{
+            width: 5%;
+            margin-left: 45%;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            margin: 20px 0px 20px 0px;
+            justify-content: space-evenly;
+
+            li{
+                list-style: none;
+                color: $paragraph-color;
+                font-size: 18px;
+            }
+        }
+    }
+    #subfour{
+        width: 50%;
+    }
+}
